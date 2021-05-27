@@ -1,0 +1,14 @@
+Color img
+https://www.npmjs.com/package/react-native-image-colors 
+
+Shadow
+https://ethercreative.github.io/react-native-shadow-generator/
+
+Hook
+https://gist.github.com/Klerith/f0f542504e09a7a2066ba346586aebad
+
+img
+https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png
+
+endpoint
+https://pokeapi.co/api/v2/pokemon/{id or name}/
