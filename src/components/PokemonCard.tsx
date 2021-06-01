@@ -24,7 +24,7 @@ export const PokemonCard = ({ pokemon}: Props) => {
     
 
     useEffect(() => {
-
+        isMounted.current = true;
         ImageColors.getColors(pokemon.picture, { fallback: 'gray' }).then((colors) => {
 
             if (!isMounted.current) return;

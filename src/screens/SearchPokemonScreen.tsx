@@ -38,7 +38,7 @@ export const SearchPokemonScreen = () => {
             )
         }
 
-
+        
 
     }, [search])
 
@@ -69,7 +69,7 @@ export const SearchPokemonScreen = () => {
                                 marginBottom: top + 35,
                                 paddingLeft: 15,
                             }}>{search}</Text>
-                            <Text style={{ color: colors.text, textAlign: 'center', letterSpacing: 1, fontSize: 20 }}>There is not results</Text>
+                            <Text style={{ color: colors.text, textAlign: 'center', letterSpacing: 1, fontSize: 20 }}>No results with: { search }</Text>
                         </View>
                         :
                         <View>
